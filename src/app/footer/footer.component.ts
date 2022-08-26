@@ -19,8 +19,6 @@ export class FooterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  sites : string[] = [
-    'Leetcode','Youtube','Linkedin','Github',
-  ]
+ 
 
 }

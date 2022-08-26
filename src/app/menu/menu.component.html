@@ -1,16 +1,21 @@
-<div class="my-5 container-fluid bg-danger">
-  <ul class="nav justify-content-start">
-  <li class="nav-item col-2 m-2">
-    <a class="nav-link active" aria-current="page" href="#"><button mat-button>Home</button></a>
+<div class="container-fluid ">
+  <ul class="nav justify-content-end fixed" >
+  <li class="nav-item links">
+    <a class="nav-link active" aria-current="page" href="#"><button mat-button><fa-icon [icon] = "faHouse" class="mx-2 " ></fa-icon>{{ home}}</button></a>
   </li>
-  <li class="nav-item col-2 m-2">
-    <a class="nav-link" href="#"><button mat-button>About</button></a>
+  <li class="nav-item links ">
+    <a class="nav-link" href="#"><button mat-button><fa-icon [icon] = "faInfoCircle" class="mx-2" ></fa-icon>{{about}}</button></a>
   </li>
-  <li class="nav-item col-2 m-2">
-    <a class="nav-link" href="#"><button mat-button>Contact</button></a>
+  <li class="nav-item links ">
+    <a class="nav-link" href="#"><button mat-button><fa-icon [icon] = "faPhone" class="mx-2" ></fa-icon>{{ contact }}</button></a>
   </li>
-  <li class="nav-item col-2 m-2">
-    <a class="nav-link disabled"><button mat-button>Blog</button></a>
+  <li class="nav-item links  ">
+    <a class="nav-link"><button mat-button><fa-icon [icon] = "faPenNib" class="mx-2" ></fa-icon>{{ projects }}</button></a>
   </li>
+
+ <li class="nav-item links ">
+    <a class="nav-link"><button mat-button><fa-icon [icon] = "faBlog" class="mx-2" ></fa-icon>{{ blog }}</button></a>
+  </li>
+  
 </ul>
 </div>

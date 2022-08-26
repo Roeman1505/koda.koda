@@ -1,8 +1,8 @@
-.links{
+a{
   text-decoration: none;
   color: silver;
 }
-.links:hover{
+.links a:hover{
   color:green;
   border-bottom: 1px solid green;
 
