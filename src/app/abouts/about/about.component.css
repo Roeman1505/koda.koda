@@ -1,0 +1,15 @@
+h1{
+  font-weight: 900;
+  font-size: 3em;
+}
+a{
+  text-decoration:none;
+}
+a:hover{
+  color:blue;
+ 
+}
+.about
+{
+box-shadow:20px 20px 20px silver;
+}

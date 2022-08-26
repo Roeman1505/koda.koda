@@ -63,3 +63,9 @@ h1{
   color:darkcyan;
   padding:0 10px;
 }
+.socials a:hover{
+color:blue;
+box-shadow:20px 20px 20px silver;
+
+
+}
