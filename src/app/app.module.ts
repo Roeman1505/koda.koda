@@ -6,12 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BackgroundComponent } from './background/background.component';
 import { FormsModule } from '@angular/forms';
-import { MaterialModule } from './material/material,module';
+import { MaterialModule } from './material/material.module';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
 import { MembersComponent } from './members/members.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
+
+
 import { LogoComponent } from './logo/logo.component';
 
 @NgModule({
@@ -31,6 +34,7 @@ import { LogoComponent } from './logo/logo.component';
     FormsModule,
     MaterialModule,
     FontAwesomeModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

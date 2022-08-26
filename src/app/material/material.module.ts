@@ -21,6 +21,8 @@ import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 
+
+
 const material =[
   MatButtonModule,
   MatButtonToggleModule,
@@ -42,6 +44,7 @@ const material =[
   MatSelectModule,
   MatAutocompleteModule,
   MatProgressBarModule,
+
 ]
 @NgModule({
 

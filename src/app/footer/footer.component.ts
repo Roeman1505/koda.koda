@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faLinkedin,faYoutube,faGithub, faAngular } from '@fortawesome/free-brands-svg-icons';
+import{faDownload} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
+  faLinkedin = faLinkedin
+  faYoutube = faYoutube
+  faGithub = faGithub
+  faAngular = faAngular
+  faDownload =faDownload
+
   constructor() { }
 
   ngOnInit(): void {
   }
+  sites : string[] = [
+    'Leetcode','Youtube','Linkedin','Github',
+  ]
 
 }

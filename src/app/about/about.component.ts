@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faLinkedin,faYoutube,faGithub, faAngular } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-about',
