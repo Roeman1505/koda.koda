@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faHouse,faInfoCircle,faPhone,faPenNib,faBlog,faBars} from '@fortawesome/free-solid-svg-icons';
+import { faHouse,faInfoCircle,faPhone,faPenNib,faBlog,faBars,faCaretDown} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-menu',
@@ -14,7 +14,12 @@ faPhone =faPhone
 faPenNib = faPenNib
 faBlog =faBlog
 faBars = faBars
-
+faCaretDown = faCaretDown
+opened =false;
+width = '768px'
+log(state: any){
+  console.log(state);
+}
 
 
   constructor() { }
