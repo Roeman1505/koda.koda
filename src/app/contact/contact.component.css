@@ -1,0 +1,11 @@
+.icon{
+    font-size:20px;
+    color:darkcyan;
+    padding:0 10px;
+  }
+  .icon:hover{
+  color:blue;
+  box-shadow:20px 20px 20px silver;
+
+
+  }

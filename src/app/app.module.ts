@@ -16,6 +16,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 import { LogoComponent } from './logo/logo.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LogoComponent } from './logo/logo.component';
     AboutComponent,
     MembersComponent,
     FooterComponent,
-    LogoComponent
+    LogoComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

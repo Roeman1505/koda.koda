@@ -1,32 +1,32 @@
 
-  <div class="container-fluid ">
+  <div class="container-fluid my-5">
 <ul class="nav justify-content-end">
   <li class="nav-item links  col-lg-2 col-12">
-    <a class="nav-link active" aria-current="page" href="#"><button mat-button><fa-icon [icon] = "faHouse" class="mx-2 " ></fa-icon>{{ home}}</button></a>
+    <a class="nav-link active" aria-current="page" href="#"><button mat-button><fa-icon [icon] = "faHouse" class="px-2 " ></fa-icon>{{ home}}</button></a>
   </li>
   <li class="nav-item links col-lg-2 col-12">
-    <a class="nav-link" href ="#about"><button mat-button><fa-icon [icon] = "faInfoCircle" class="mx-2" ></fa-icon>{{about}}</button></a>
+    <a class="nav-link" href ="#about"><button mat-button><fa-icon [icon] = "faInfoCircle" class="px-2" ></fa-icon>{{about}}</button></a>
   </li>
   <li class="nav-item links col-lg-2 col-12 ">
-    <a class="nav-link" href="#"><button mat-button><fa-icon [icon] = "faPhone" class="mx-2" ></fa-icon>{{ contact }}</button></a>
+    <a class="nav-link" href="#contact"><button mat-button><fa-icon [icon] = "faPhone" class="px-2" ></fa-icon>{{ contact }}</button></a>
   </li>
-  
+
 
  <li class="nav-item links  col-lg-2 col-12">
-    <a class="nav-link"><button mat-button><fa-icon [icon] = "faBlog" class="mx-2" ></fa-icon>{{ blog }}</button></a>
+    <a class="nav-link"><button mat-button><fa-icon [icon] = "faBlog" class="px-2" ></fa-icon>{{ blog }}</button></a>
   </li>
 
   <li class="nav-item links  col-lg-2 col-12  ">
-    <a class="nav-link"><button mat-button [matMenuTriggerFor]="appMenu" >{{ projects }} <fa-icon [icon]="faCaretDown"  classs="mx-2"></fa-icon></button></a>
+    <a class="nav-link"><button mat-button [matMenuTriggerFor]="appMenu" >{{ projects }} <fa-icon [icon]="faCaretDown"  class="px-2"></fa-icon></button></a>
 
-    <mat-menu class="my-2 bg-secondary text-light w-100"  #appMenu="matMenu" xPosition="after" yPosition="below">
+    <mat-menu class="my-2 bg-info border- primary text-light w-100"  #appMenu="matMenu" xPosition="after" yPosition="below">
       <button class="btn" mat-menu-item >FrontEnd Projects</button>
       <button  class="btn" mat-menu-item>BackEnd</button>
     </mat-menu>
 
   </li>
 
- 
+
 </ul>
 
 
